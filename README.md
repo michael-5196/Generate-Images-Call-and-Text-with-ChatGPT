@@ -65,7 +65,7 @@ ngrok http 5000
 You’ll need to set the webhook URLs in your Twilio account to the forwarding URL provided by ngrok. The endpoints /incoming_call and /sms should be appended to the ngrok URL for voice and message services respectively.
 
 ### You're all set! Now you can call your Twilio Number and start chatting with the AI assistant.
-### To generate images, began the text with img followed by a picture you want to create
+### To generate images, begin the text with img followed by a picture you want to create
 ### You can choose a different Google Text-To-Speech voice here: (https://cloud.google.com/text-to-speech/docs/voices). Go to the synthesize text-to-speech function and replace the Google voice model with the name of another. 
 
 
