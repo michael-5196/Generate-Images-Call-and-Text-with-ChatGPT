@@ -13,7 +13,7 @@ Additionally, this will also cost money 💲 since you will be using twilio and 
 Before you can run your Flask app, you'll need to install its dependencies. You can do this by running the following command in the terminal:
 
 ```bash
-pip install flask twilio google-cloud-texttospeech google-cloud-speech openai
+pip install flask twilio google-cloud-texttospeech google-cloud-speech openai google
 
 ```
 ### Step 3: Twilio Setup
