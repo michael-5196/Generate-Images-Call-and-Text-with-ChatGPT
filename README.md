@@ -65,7 +65,10 @@ You’ll need to set the webhook URLs in your Twilio account to the forwarding U
 
 #### You're all set! Now you can call your Twilio Number and start chatting with the AI assistant.
 ### To generate images, began the text with img followed by a picture you want to create
+### You can choose a different Google Text-To-Speech voice here: (https://cloud.google.com/text-to-speech/docs/voices). Go to the synthesize text-to-speech function and replace the Google voice model with the name of another. 
 
-## Optional
-Browse through the different voices Google offers (https://cloud.google.com/text-to-speech/docs/voices). Please note that Google has limitations to the number of words it can convert and may be further limited by the specific model chosen. If your assistant incurs an application error, it is likely because of the Google TTS limitation.
 
+## Important
+Please note for calls that Google has limitations to the number of words it can convert and may be further limited by the specific model chosen. If your assistant incurs an application error, it is likely because of the Google TTS limitation. 
+
+SMS responses may also show if the responses are too long. Further updates will have a way to chunk the message across multiple messages. 
