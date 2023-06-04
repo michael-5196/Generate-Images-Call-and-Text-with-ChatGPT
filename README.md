@@ -38,6 +38,7 @@ From the main Cloud Console menu, go to "IAM & Admin" > "Service Accounts". Crea
 
 #### 4e: Provide the JSON Key to Your Application
 Set the `GOOGLE_APPLICATION_CREDENTIALS` environment variable in your system to the file location path of your service account key file.
+![googlecloudStep1](https://github.com/michael-5196/Generate-Images-Call-and-Text-with-ChatGPT/assets/131683141/83b6df90-d5f2-477c-8eca-bc608f4ffa9c)
 
 ### Step 5: Set Environment Variables
 Set the following environment variables in your system:
@@ -61,10 +62,14 @@ To make the Flask application accessible over the internet, you’ll need to dow
 ```bash
 ngrok http 5000
 ```
+![NgrokStep1](https://github.com/michael-5196/Generate-Images-Call-and-Text-with-ChatGPT/assets/131683141/bd811552-e56e-4dcb-8963-f85c765effa9)
+
 ### Step 9: Update Twilio Webhooks
 You’ll need to set the webhook URLs in your Twilio account to the forwarding URL provided by ngrok. The endpoints /incoming_call and /sms should be appended to the ngrok URL for voice and message services respectively.
+![TwilioStep2](https://github.com/michael-5196/Generate-Images-Call-and-Text-with-ChatGPT/assets/131683141/cfdc35ee-20d7-4f54-9559-34da45e5122d)
+![TwilioStep3](https://github.com/michael-5196/Generate-Images-Call-and-Text-with-ChatGPT/assets/131683141/6a99dd35-a92b-4fbf-b743-1d91d2861fd5)
 
-### You're all set! Now you can call your Twilio Number and start chatting with the AI assistant.
+### You're all set!🚀 Now you can call your Twilio Number and start chatting with the AI assistant.
 ### To generate images, begin the text with img followed by a picture you want to create
 ### You can choose a different Google Text-To-Speech voice here: (https://cloud.google.com/text-to-speech/docs/voices). Go to the synthesize text-to-speech function and replace the Google voice model with the name of another. 
 
