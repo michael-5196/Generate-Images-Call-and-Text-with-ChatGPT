@@ -72,7 +72,7 @@ You’ll need to set the webhook URLs in your Twilio account to the forwarding U
 ### You're all set!🚀 Now you can call your Twilio Number and start chatting with the AI assistant.
 ### To generate images, begin the text with img followed by a picture you want to create
 ### You can choose a different Google Text-To-Speech voice here: (https://cloud.google.com/text-to-speech/docs/voices). Go to the synthesize text-to-speech function and replace the Google voice model with the name of another. 
-
+![googletts](https://github.com/michael-5196/Generate-Images-Call-and-Text-with-ChatGPT/assets/131683141/60187cab-a001-4931-b716-f9107f51b59a)
 
 ## Important
 Please note for calls that Google has limitations to the number of words it can convert and may be further limited by the specific model chosen. If your assistant incurs an application error, it is likely because of the Google TTS limitation. 
