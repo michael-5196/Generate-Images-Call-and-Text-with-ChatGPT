@@ -1,6 +1,7 @@
 # Generate-Images-Call-and-Text-with-ChatGPT
 ☎️📱🤖This project is an AI Assistant powered by OpenAI and Google Text-to-Speech and interfaced via Twilio for SMS and voice interactions. It’s designed to handle phone call conversations, texts and image generation that let you ultimately communicate with ChatGPT via sms and calls from any phone. 
 
+Additionally, this will also cost money 💲 since you will be using twilio and your own openai api key. 
 
 ## Instructions
 
@@ -71,4 +72,4 @@ You’ll need to set the webhook URLs in your Twilio account to the forwarding U
 ## Important
 Please note for calls that Google has limitations to the number of words it can convert and may be further limited by the specific model chosen. If your assistant incurs an application error, it is likely because of the Google TTS limitation. 
 
-SMS responses may also show if the responses are too long. Further updates will have a way to chunk the message across multiple sms texts. 
+SMS responses may also not send if the responses are too long. Further updates will have a way to chunk the message across multiple sms texts. 
