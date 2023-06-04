@@ -10,7 +10,7 @@ Additionally, this will also cost money 💲 since you will be using twilio and 
 `git clone <repository_url>`
 
 ### Step 2: Install the Dependencies
-Before users can run your Flask app, they will need to install its dependencies. They can do this by running the following command in the terminal:
+Before you can run your Flask app, they will need to install its dependencies. You can do this by running the following command in the terminal:
 
 ```bash
 pip install flask twilio google-cloud-texttospeech google-cloud-speech openai
@@ -21,7 +21,7 @@ pip install flask twilio google-cloud-texttospeech google-cloud-speech openai
 Navigate to [Twilio’s website](https://twilio.com/). Sign up, purchase a number, and complete any necessary registration steps required for SMS.
 
 #### 3b: Get Your SID and Auth Token
-Once logged into your Twilio account, you can find your Account SID and Auth Token on your Dashboard. Remember to keep your Auth Token secret!
+Once logged into your Twilio account, you can find your Account SID and Auth Token on your Dashboard. Remember to keep your Auth Token top-secret!
 
 ### Step 4: Google Cloud Setup
 #### 4a: Sign In or Create a Google Cloud Account
