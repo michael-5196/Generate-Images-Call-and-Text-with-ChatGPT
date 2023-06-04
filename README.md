@@ -10,7 +10,7 @@ Additionally, this will also cost money 💲 since you will be using twilio and 
 `git clone <repository_url>`
 
 ### Step 2: Install the Dependencies
-Before you can run your Flask app, they will need to install its dependencies. You can do this by running the following command in the terminal:
+Before you can run your Flask app, you'll need to install its dependencies. You can do this by running the following command in the terminal:
 
 ```bash
 pip install flask twilio google-cloud-texttospeech google-cloud-speech openai
